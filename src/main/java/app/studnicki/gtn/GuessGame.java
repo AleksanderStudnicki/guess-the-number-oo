@@ -10,4 +10,9 @@ public class GuessGame {
     public Range getRange() {
         return range;
     }
+
+    public Integer getAmountOfTries() {
+        return (int) Math.floor((range.getEndValue() - range.getStartValue() + 1) * 0.05);
+    }
+
 }
