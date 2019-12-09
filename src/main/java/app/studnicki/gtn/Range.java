@@ -23,4 +23,10 @@ public class Range {
         ThreadLocalRandom random = ThreadLocalRandom.current();
         return random.nextInt(startValue, endValue + 1);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        Range range = (Range) obj;
+        return startValue.equals(range.getStartValue()) && endValue.equals(range.getEndValue());
+    }
 }
