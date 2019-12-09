@@ -1,5 +1,7 @@
 package app.studnicki.gtn;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Range {
     private Integer startValue;
     private Integer endValue;
@@ -15,5 +17,10 @@ public class Range {
 
     public Integer getEndValue() {
         return endValue;
+    }
+
+    public Integer getRandom() {
+        ThreadLocalRandom random = ThreadLocalRandom.current();
+        return random.nextInt(startValue, endValue + 1);
     }
 }
