@@ -1,0 +1,136 @@
+import java.io.*;
+import java.math.*;
+import java.net.*;
+import java.nio.file.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.prefs.*;
+import java.util.regex.*;
+import java.util.stream.*;
+public class Game{
+Number startValue;
+}
+Game game = new Game();
+public class Game{
+Number startValue; Number endValue; public Game(Number startValue, Number endValue){ this.startValue; this.endValue;}
+}
+public class Game{
+Number startValue; Number endValue; public Game(Number startValue, Number endValue){ this.startValue = startValue; this.endValue = endValue;}
+}
+public class Game{
+private Number startValue; private Number endValue; public Game(Number startValue, Number endValue){ this.startValue = startValue; this.endValue = endValue;} public getStartValue(){return startValue;} public getEndValue(){return endValue;}
+}
+public class Game{
+private Number startValue; private Number endValue; public Game(Number startValue, Number endValue){ this.startValue = startValue; this.endValue = endValue;} public Number getStartValue(){return startValue;} public Number getEndValue(){return endValue;}
+}
+Game game = new Game(10, 20);
+game.getStartValue()
+game.getEndValue()
+public class Game{
+private Number startValue; private Number endValue; private amountOfTries; public Game(Number startValue, Number endValue){ this.startValue = startValue; this.endValue = endValue;} public Number getStartValue(){return startValue;} public Number getEndValue(){return endValue;}
+}
+public class Game{
+private Number startValue; private Number endValue; private Number amountOfTries; public Game(Number startValue, Number endValue){ this.startValue = startValue; this.endValue = endValue;} public Number getStartValue(){return startValue;} public Number getEndValue(){return endValue;}
+}
+Random random = new Random();
+random.nextInt(100)
+random.nextInt(100)
+random.nextInt(100)
+random.nextInt(100)
+random.nextInt(100)
+random.nextInt(100)
+random.nextInt(100)
+random.nextFloat(100)
+random.nextFloat()
+random.nextFloat()
+random.nextFloat()
+random.nextFloat()
+random.nextFloat()
+random.nextFloat()
+random.nextFloat()
+random.nextFloat()
+random.nextDouble(100)
+random.nextDouble()
+random.nextDouble()
+random.nextDouble()
+random.nextDouble()
+random.nextDouble()
+random.nextDouble()
+random.nextDouble()
+random.nextDouble()
+random.nextDouble() * Double.parseDouble(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextDouble() * Double.valueOf(100)
+random.nextFloat() * Float.valueOf(100)
+random.nextFloat() * Float.valueOf(100)
+random.nextFloat() * Float.valueOf(100)
+random.nextFloat() * Float.valueOf(100)
+random.nextFloat() * Float.valueOf(100)
+random.nextFloat() * Float.valueOf(100)
+Math.floor((100 - 10) / 5)
+Math.floor((100 - 10) / 5)
+Math.floor((100 - 10) / 5)
+Math.floor((100 - 10) / 5)
+Math.floor((100 - 10) / 5)
+Math.floor((100 - 10) * 0.05)
+Math.floor((100 - 10) * 0.05)
+Math.floor((100 - 10) * 0.05)
+Math.floor((100\) * 0.05)
+Math.floor((100) * 0.05)
+Math.floor((100 - 1 + 1) * 0.05)
+Math.floor((100 - 1 + 1) * 0.05)
+Math.floor((100 - 1 + 1) * 0.05)
+Math.floor((100 - 2 + 1) * 0.05)
+Math.floor((100 - 1 + 1) * 0.05)
+var a = Math.floor((100 - 1 + 1) * 0.05);
+typeof a;
+Class.getType(a)
+(instanceof) a
+Integer.valueOf(Math.floor((100 - 1 + 1) * 0.05))
+Integer a = (Integer) Math.floor((100 - 1 + 1) * 0.05);
+Integer a = (int) Math.floor((100 - 1 + 1) * 0.05);
+Integer a = (int) Math.floor((100 - 1 + 1) * 0.05);
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Float randomized = (100 - 10) * random.nextFloat();
+Scanner scanner = new Scanner();
+Scanner scanner = new Scanner(System.in);
+scanner.nextInt()
+scanner.nextFloat()
+scanner.nextFloat()
