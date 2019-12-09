@@ -1,9 +1,13 @@
 package app.studnicki.gtn;
 
 public class GuessGame {
-    public Range range;
+    private Range range;
 
     public GuessGame(Range range) {
         this.range = range;
+    }
+
+    public Range getRange() {
+        return range;
     }
 }
