@@ -7,8 +7,13 @@ public class Range {
     private Integer endValue;
 
     public Range(Integer startValue, Integer endValue) {
-        this.startValue = startValue;
-        this.endValue = endValue;
+        if(startValue > endValue){
+            this.startValue = endValue;
+            this.endValue = startValue;
+        } else{
+            this.startValue = startValue;
+            this.endValue = endValue;
+        }
     }
 
     public Integer getStartValue() {

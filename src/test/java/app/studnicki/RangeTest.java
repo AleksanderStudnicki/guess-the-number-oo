@@ -29,4 +29,11 @@ public class RangeTest {
         Assert.assertTrue(random >= range.getStartValue());
         Assert.assertTrue(random <= range.getEndValue());
     }
+
+    @Test
+    public void endValueMustBeEqualsOrHigherThanStartValueEvenWhenStartValueIsHigherInConstructor(){
+        Range anotherRange = new Range(20, 10);
+
+        Assert.assertTrue(anotherRange.getEndValue() > anotherRange.getStartValue());
+    }
 }
