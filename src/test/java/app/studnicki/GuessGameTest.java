@@ -2,7 +2,9 @@ package app.studnicki;
 
 import app.studnicki.gtn.GuessGame;
 import app.studnicki.gtn.Range;
-import org.testng.Assert;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotEquals;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -19,23 +21,23 @@ public class GuessGameTest {
 
     @Test
     public void getProperRange() {
-        Assert.assertEquals(guessGame.getRange(), new Range(10, 100));
+        assertEquals(guessGame.getRange(), new Range(10, 100));
     }
 
     @Test
     public void checkNotEquals() {
-        Assert.assertNotEquals(guessGame.getRange(), new Range(20, 250));
+        assertNotEquals(guessGame.getRange(), new Range(20, 250));
     }
 
     @Test
     public void amountOfTriesShouldBeEqual4(){
-        Assert.assertEquals(guessGame.getAmountOfTries(), Integer.valueOf(4));
+        assertEquals(guessGame.getAmountOfTries(), Integer.valueOf(4));
     }
 
     @Test
     public void amountOfTriesShouldBeEqual5(){
         GuessGame anotherGuessGame = new GuessGame(new Range(1, 100));
 
-        Assert.assertEquals(anotherGuessGame.getAmountOfTries(), Integer.valueOf(5));
+        assertEquals(anotherGuessGame.getAmountOfTries(), Integer.valueOf(5));
     }
 }
