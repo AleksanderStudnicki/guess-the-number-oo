@@ -50,5 +50,10 @@ public class IntegerGuessGame extends GuessGame {
         }
     }
 
+    @Override
+    boolean reversed(Number startValue, Number endValue) {
+        return startValue.intValue() > endValue.intValue();
+    }
+
 
 }

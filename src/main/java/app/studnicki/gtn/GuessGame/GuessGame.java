@@ -12,6 +12,11 @@ public abstract class GuessGame {
     protected ThreadLocalRandom random = ThreadLocalRandom.current();
 
     protected GuessGame(Number startValue, Number endValue) {
+        if(reversed(startValue, endValue)){
+            Number temp = startValue;
+            startValue = endValue;
+            endValue = temp;
+        }
         this.startValue = startValue;
         this.endValue = endValue;
         drawnValue = drawTheValue();
@@ -45,4 +50,6 @@ public abstract class GuessGame {
     abstract boolean checkValue(Number choice);
 
     abstract Number getValueFromInput();
+
+    abstract boolean reversed(Number startValue, Number endValue);
 }
